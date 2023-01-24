@@ -6,10 +6,10 @@ jobs:
     docker:
       - image: node:11.10.1
 
-    working_directory: ~/repo
+    working_directory: ~/
 
     steps:
-      - checkout
+      # - checkout
 
       # Download and cache dependencies
       - restore_cache:
